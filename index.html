@@ -7,3 +7,34 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/form.css" />
 </head>
+<body>
+    <header>
+        <nav id="navbar">
+            <label class="toggle">
+                <button class="sun">&#127774;</button>
+                <button class="moon">&#127770;</button>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <h1>Submit a Blog Post</h1>
+        <form id="blog-form">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" required><br>
+
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" required><br>
+
+            <label for="content">Content:</label><br>
+            <textarea id="content" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <h5>Made with &#128157; by Caliph</h5>
+    </footer>
+    <script src="assets/js/form.js"></script>  
+    <script src="assets/js/logic.js"></script> 
+</body>
+</html>
