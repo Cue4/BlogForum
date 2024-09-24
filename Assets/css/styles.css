@@ -1,7 +1,3 @@
-* {
-    background-color: white;
-  }
-
 nav#navbar {
     margin: 5px;
     padding: 15px;
@@ -11,3 +7,45 @@ div#img-blog {
     color: brown;
     font-size: 30px
   }
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: black;
+}
+
+button {
+  background-color: #ffffff;
+  color: black;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+button {
+  background-color: #121212;
+  color: white;
+}
+
+.toggle button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+}
